@@ -28,10 +28,9 @@ $(document).ready(function() {
         alert(`${$(this).text()} won!`);
         $('#board td').off();
       } else if (count === 9) {
-        alert('draw td');
+        alert('DRAW GAME!');
         $('#board td').off();
       }
-
       alternateSign = !alternateSign;
     }
   });
